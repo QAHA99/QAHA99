@@ -29,8 +29,8 @@ My work focuses on deep learning applications in medical imaging, specifically o
 * **Method:** Utilized **nnU-Net**, a self-configuring deep learning framework that automates U-Net architecture design (preprocessing, network depth, and loss functions) to achieve robust segmentation on complex clinical data.
 
 #### **Ongoing Research: Optimized Neural Networks for Pulmonary Topology**
-* **Objective:** Developing a specialized neural network architecture **from scratch** designed for the segmentation of pulmonary bodies.
-* **Key Challenge:** Standard models often require massive datasets. My research focuses on **Data-Efficient Learning**, creating a model that achieves high accuracy with a **small training database** (sparse annotation) while optimizing computational efficiency for clinical settings.
+* **Objective:** Developing a specialized neural network architecture from scratch designed for the segmentation of pulmonary bodies.
+* **Key Challenge:** Standard models often require massive datasets. My research focuses on Data-Efficient Learning, creating a model that achieves high accuracy with a smaller training database while optimizing computational efficiency for clinical settings.
 * **Status:** *In Development*
 
 ---
