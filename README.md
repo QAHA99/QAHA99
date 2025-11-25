@@ -37,17 +37,17 @@ My work focuses on deep learning applications in medical imaging, specifically o
 
 ### Health Informatics & Data Engineering
 
-### [Secure Clinical Relational Database System](https://github.com/QAHA99/secure-clinic-db-system)
+#### [Clinical Relational Database System](https://github.com/QAHA99/secure-clinic-db-system)
 * **Focus:** Relational Modeling, Data Integrity & Database Security
 * Designed a normalized PostgreSQL database featuring advanced triggers for logic enforcement (anti-overlap), PL/pgSQL stored procedures, and Role-Based Access Control (RBAC).
 * **Stack:** PostgreSQL, PL/pgSQL, Java (JDBC).
 
-### **[Hybrid Graph-Document Medical System](https://github.com/QAHA99/hybrid-medical-db)**
+#### **[Hybrid Graph-Document Medical System](https://github.com/QAHA99/hybrid-medical-db)**
 * **Focus:** Complex Data Relationships
 * A hybrid CLI system leveraging **Neo4j** to map complex doctor-patient graph relationships and **MongoDB** for high-throughput messaging.
 * **Stack:** Neo4j (Graph), MongoDB (Document), Java.
 
-### **[Secure FHIR-Integrated Clinic Platform](https://github.com/QAHA99/Secure-Clinic-Platform-FHIR)**
+#### **[Secure FHIR-Integrated Clinic Platform](https://github.com/QAHA99/Secure-Clinic-Platform-FHIR)**
 * **Focus:** Clinical Systems & Backend Security
 * Built a role-based clinical management system using **HAPI FHIR R4** for standardized patient data exchange. Features secure auth and patient management.
 * **Stack:** Java, HAPI FHIR, MongoDB (GridFS).
