@@ -56,7 +56,7 @@ My work focuses on deep learning applications in medical imaging, specifically o
 
 ### General Software Engineering
 
-* **Java Ecosystem:** [Sudoku (JavaFX)](https://github.com/QAHA99/sudoku-javafx-mvc), [Poker Solitaire (Logic)](https://github.com/QAHA99/poker-solitaire-logic), Sliding Puzzle
+* **Java Ecosystem:** [Sudoku (JavaFX)](https://github.com/QAHA99/sudoku-javafx-mvc), [Poker Solitaire (Logic)](https://github.com/QAHA99/poker-solitaire-logic), [Sliding Puzzle (Logic)](https://github.com/QAHA99/sliding-puzzle-logic)
 * **Game Development:** [2D Physics Platformer (C# / Unity)](#)
 * **Systems Programming:** [Board Game Rating System (C)](https://github.com/QAHA99/board-game-rating-system)
 
