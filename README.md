@@ -47,7 +47,7 @@ My work focuses on deep learning applications in medical imaging, specifically o
 * Built a role-based clinical management system using **HAPI FHIR R4** for standardized patient data exchange. Features secure auth and patient management.
 * **Stack:** Java, HAPI FHIR, MongoDB (GridFS).
 
-### [Hybrid Graph-Document Medical System](https://github.com/qusai-al-haj-ali/hybrid-medical-db)
+### [Hybrid Graph-Document Medical System](https://github.com/QAHA99/hybrid-medical-db)
 * **Focus:** Complex Data Relationships
 * A hybrid CLI system leveraging **Neo4j** to map complex doctor-patient graph relationships and **MongoDB** for high-throughput messaging.
 * **Stack:** Neo4j (Graph), MongoDB (Document), Java.
