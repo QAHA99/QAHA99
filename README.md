@@ -1,7 +1,7 @@
 <h1 align="center">Hello, I'm Qusai Al Haj Ali</h1>
 
 <h3 align="center">
-  Medical Engineer | MSc Data-Driven Health Student @ <a href="https://www.kth.se/en/studies/master/data-driven-health">KTH</a>
+  Medical Engineer | MSc Data-Driven Health Student at <a href="https://www.kth.se/en/studies/master/data-driven-health">KTH</a>
 </h3>
 
 <p align="center">
