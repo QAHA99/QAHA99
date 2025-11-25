@@ -23,7 +23,7 @@
 
 My work focuses on deep learning applications in medical imaging, specifically overcoming data scarcity and topological complexity in anatomical segmentation.
 
-#### **Automated Lung Segmentation @ NKS (New Karolinska Solna)**
+#### **Automated Lung Segmentation at NKS (New Karolinska Solna)**
 * **Role:** Medical Image Analyst / AI Engineer
 * **Task:** Automatic segmentation of lung airways and pulmonary vessels from CT scans.
 * **Method:** Utilized **nnU-Net**, a self-configuring deep learning framework that automates U-Net architecture design (preprocessing, network depth, and loss functions) to achieve robust segmentation on complex clinical data.
