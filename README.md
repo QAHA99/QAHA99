@@ -37,10 +37,10 @@ My work focuses on deep learning applications in medical imaging, specifically o
 
 ### Health Informatics & Data Engineering
 
-#### **[Healthcare Data Lake & Analytics Platform](#)**
+### [Healthcare Data Lake & Analytics Platform](https://github.com/QAHA99/healthcare-data-lake)
 * **Focus:** Big Data, ETL, & FHIR Interoperability
 * Designed an end-to-end pipeline for ingesting and standardizing heterogeneous medical data (JSON/FHIR) into a scalable data lake.
-* **Stack:** NoSQL (MongoDB), JSON, Python.
+* **Stack:** NoSQL (MongoDB), JSON, Java.
 
 #### **[Secure FHIR-Integrated Clinic Platform](https://github.com/QAHA99/Secure-Clinic-Platform-FHIR)**
 * **Focus:** Clinical Systems & Backend Security
