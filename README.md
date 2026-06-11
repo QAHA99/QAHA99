@@ -35,6 +35,57 @@ My work focuses on deep learning applications in medical imaging, specifically o
 
 ---
 
+## Deep Learning & Medical AI
+
+Hands-on deep learning projects across medical imaging, clinical NLP, and biosignals — most implemented from scratch in PyTorch. *(Datasets and trained weights are excluded from all repos; credentialed PhysioNet data is never redistributed.)*
+
+### [Brain Tumor Segmentation & Classification (Self-Supervised, Multi-Task)](https://github.com/QAHA99/brain-tumor-ssl-segmentation)
+- **Focus:** Self-supervised pre-training + multi-task learning on brain MRI
+- Masked-Autoencoder pre-training, then joint tumor segmentation + 4-class classification; a controlled **U-Net vs. ResNet18-UNet** encoder comparison with an SSL-vs-no-SSL ablation.
+- **Stack:** PyTorch, Dice/IoU/Hausdorff, macro-F1. *(Group project)*
+
+### [Generalizable ECG Classification — CNN-Transformer + Semi-Supervised Learning](https://github.com/QAHA99/ecg-cnn-transformer)
+- **Focus:** 12-lead ECG diagnosis robust across recording environments
+- CNN-Transformer trained on PTB-XL (5 diagnostic super-classes) with pseudo-labelling on LTDB; Focal Loss for class imbalance; attention/SHAP/Integrated-Gradients interpretability.
+- **Stack:** PyTorch, SciPy (signal processing). *(Group project)*
+
+### [Binary Liver Segmentation — U-Net from Scratch](https://github.com/QAHA99/liver-segmentation-unet)
+- **Focus:** CT organ segmentation
+- U-Net built from scratch on AbdomenAtlas CT slices; BCE+Dice loss; **Dice 0.90 / IoU 0.84** on liver-containing test slices.
+- **Stack:** PyTorch.
+
+### [Chest X-Ray Report Generation — Show, Attend and Tell](https://github.com/QAHA99/chest-xray-captioning)
+- **Focus:** Image captioning of radiology impressions
+- CNN encoder + attention LSTM decoder generating the IMPRESSION sentence from MIMIC-CXR; includes an honest analysis of beam-search mode collapse and the CE-vs-BLEU disconnect.
+- **Stack:** PyTorch.
+
+### [Medical NLP — Radiology Report Classification](https://github.com/QAHA99/medical-nlp-classification)
+- **Focus:** Clinical text classification from scratch
+- Naive Bayes baseline vs. BiLSTM and attention-BiLSTM (no pre-trained embeddings) on MIMIC-CXR reports labelled via CheXpert.
+- **Stack:** PyTorch, scikit-learn.
+
+### [Early Sepsis Prediction from Clinical Time Series](https://github.com/QAHA99/sepsis-time-series-prediction)
+- **Focus:** Multi-horizon clinical forecasting
+- Bidirectional LSTM predicting sepsis onset 2/4/6 h ahead from 8 h of physiological signals; sliding windows, class-weighted loss, Youden's-J thresholding.
+- **Stack:** TensorFlow/Keras, scikit-learn.
+
+### [ICU False Alarm Prediction](https://github.com/QAHA99/icu-false-alarm-prediction)
+- **Focus:** Reducing ICU alarm fatigue from biosignals
+- Time- and frequency-domain features from ECG/PPG/ABP waveforms (VTaC); Random Forest reaches **ROC-AUC ≈ 0.83** vs. a Logistic Regression baseline.
+- **Stack:** scikit-learn, SciPy, WFDB.
+
+### [Backpropagation from Scratch (micrograd)](https://github.com/QAHA99/backprop-from-scratch)
+- **Focus:** First-principles autograd
+- A scalar reverse-mode autodiff engine + MLP library with no deep learning framework, gradients validated against PyTorch.
+- **Stack:** NumPy, Graphviz.
+
+### [LLM-Based MIMIC-IV Column Annotation](https://github.com/QAHA99/mimic-llm-column-annotation)
+- **Focus:** Applying LLMs to clinical database understanding
+- Locally hosted LLM (Ollama) auto-annotates MIMIC-IV table columns with Pydantic-validated structured output and MLflow experiment tracking.
+- **Stack:** Ollama, Pydantic, MLflow, Pandas. *(Group project)*
+
+---
+
 ### Health Informatics & Data Engineering
 
 #### [Clinical Relational Database System](https://github.com/QAHA99/secure-clinic-db-system)
